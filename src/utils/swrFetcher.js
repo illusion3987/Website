@@ -1,0 +1,1 @@
+export const fetcher=(...args)=>fetch(...args).then(res=>res.json()); // whatever api we call in this fetcher from swr....this fetcher call
